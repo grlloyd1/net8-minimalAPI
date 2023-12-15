@@ -2,7 +2,7 @@
 
 namespace net8_minimalAPI.Repository
 {
-    public class HardCodedCourseRepository : ICourseRepository
+    public class HardCodedCourseRepository : IGenericRepository<Course>
     {
         List<Course> courses = new()
         {
