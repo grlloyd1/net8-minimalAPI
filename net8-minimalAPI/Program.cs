@@ -7,6 +7,7 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddScoped<IStudentRepository, HardCodedStudentRepository>();
+builder.Services.AddScoped<ICourseRepository, HardCodedCourseRepository>();
 
 
 var app = builder.Build();
@@ -26,6 +27,14 @@ app.MapGet("/students", async (IStudentRepository repository) => await repositor
 
 app.MapGet("/students/{id}", async (int id, IStudentRepository repository) => await repository.Get(id))
     .WithName("GetStudent")
+    .WithOpenApi();
+
+app.MapGet("/courses", async (ICourseRepository repository) => await repository.Get())
+    .WithName("GetCourses")
+    .WithOpenApi();
+
+app.MapGet("/courses/{id}", async (int id, ICourseRepository repository) => await repository.Get(id))
+    .WithName("GetCourse")
     .WithOpenApi();
 
 app.Run();
