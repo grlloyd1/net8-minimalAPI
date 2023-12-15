@@ -9,14 +9,14 @@
                 Id= 1,
                 Name = "Mario",
                 Surname = "Rossi",
-                Email = "mario.rossi@southwales.ac.uk"
+                Email = "mario.rossi@test.com"
             },
             new Student()
             {
                 Id= 2,
                 Name = "Steve",
                 Surname = "Rossi",
-                Email = "steve.rossi@southwales.ac.uk"
+                Email = "steve.rossi@test.com"
             }
         };
         public Task<List<Student>> Get() { return Task.FromResult(students); }
