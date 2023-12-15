@@ -1,4 +1,6 @@
-﻿namespace net8_minimalAPI.Repository
+﻿using net8_minimalAPI.Models;
+
+namespace net8_minimalAPI.Repository
 {
     public class HardCodedStudentRepository : IStudentRepository
     {

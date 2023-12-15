@@ -1,4 +1,4 @@
-﻿namespace net8_minimalAPI
+﻿namespace net8_minimalAPI.Models
 {
     public class Student
     {
