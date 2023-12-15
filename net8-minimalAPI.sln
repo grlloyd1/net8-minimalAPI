@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "net8-minimalAPI", "net8-minimalAPI\net8-minimalAPI.csproj", "{0635E4D0-B5EA-498E-87CF-E715C67D2D02}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0635E4D0-B5EA-498E-87CF-E715C67D2D02}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0635E4D0-B5EA-498E-87CF-E715C67D2D02}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0635E4D0-B5EA-498E-87CF-E715C67D2D02}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0635E4D0-B5EA-498E-87CF-E715C67D2D02}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DF2934DA-4FC8-497F-B054-A63CD8E50764}
+	EndGlobalSection
+EndGlobal

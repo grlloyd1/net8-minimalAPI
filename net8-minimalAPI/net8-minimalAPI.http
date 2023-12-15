@@ -1,0 +1,8 @@
+@net8_minimalAPI_HostAddress = https://localhost:7056
+
+GET {{net8_minimalAPI_HostAddress}}/Students/
+Accept: application/json
+
+###
+GET {{net8_minimalAPI_HostAddress}}/Students/1
+Accept: application/json
